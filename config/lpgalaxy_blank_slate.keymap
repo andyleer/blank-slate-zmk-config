@@ -115,9 +115,9 @@
 #ifdef TBLE_DUAL_2Ua
 &trans  &trans       &trans     &kp N0              &trans                 &kp PG_UP    &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
-&trans  &trans       &trans     &kp N0      &trans           &none            &kp PG_DOWN        &kp HOME      &kp END &trans &trans
+&trans  &trans       &trans     &trans     &trans           &none            &kp PG_DOWN        &kp HOME      &kp END &trans &trans
 #else
-&trans  &trans       &trans     &kp N0      &trans    &none         &none     &kp ESC        &kp BSLH      &trans &trans &trans
+&trans  &trans       &trans     &trans     &trans    &none         &none     &kp ESC        &kp BSLH      &trans &trans &trans
 #endif
             >;
         };
