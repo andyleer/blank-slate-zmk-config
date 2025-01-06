@@ -115,7 +115,7 @@
 #ifdef TBLE_DUAL_2Ua
 &trans  &trans       &trans     &trans              &trans                 &trans    &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
-&trans  &trans       &trans     &trans     &trans           &trans            &trans      &kp C_PLAY_PAUSE     &kp C_VOLUME_DOWN &kp C_NEXT
+&trans  &trans       &trans     &trans     &trans           &trans            &trans     &trans &trans &kp C_PLAY_PAUSE     &kp C_VOLUME_DOWN &kp C_NEXT
 #else
 &trans  &trans       &trans     &trans     &trans    &none         &none     &kp ESC        &trans      &trans &trans &trans
 #endif
